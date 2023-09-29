@@ -172,6 +172,10 @@ h6 {
   color: var(--primary-color) !important ;
 }
 
+.l-heading {
+  font-size: 3rem;
+}
+
 /* Inner page grid container */
 .page-container {
   display: grid;
@@ -289,6 +293,18 @@ h6 {
   grid-gap: 1rem;
   grid-column: 2 / span 2;
   align-items: center;
+}
+
+#article .meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #eee;
+  padding: 0.5rems;
+}
+
+#article .meta .category {
+  margin-top: 0.4rem;
 }
 
 /* Footer */
